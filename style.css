@@ -1,0 +1,111 @@
+@font-face 
+{
+    font-family: 'norse-bold'; /* Specify the name you want to use for your font */
+    src: url('./Norse-Bold.otf'); /* Specify the path to your .otf font file */
+}
+
+body
+{
+    background-color: whitesmoke;
+    font-size: large;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    height: calc(100vh - 20px);
+    width: 65vw;
+    padding: 17px;
+    box-sizing: border-box;
+}
+
+.right .form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.right .form > div {
+    width: calc(50% - 10px); /* Two elements per row with some space in between */
+    margin: 5px; /* Adjust margin as per your design */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+}
+.left
+{
+    width: 35vw;
+    height: calc(100vh - 20px);
+    background-image: url(./greenleaf.jpg);
+    background-size:cover;
+}
+.logo
+{
+    height: 20vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    color: white;
+    font-family: 'Norse-Bold';
+    font-size:20vh;
+}
+.logo img
+{
+    height: 20vh;
+    width: auto;
+}
+.logo-cont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 20px);
+}
+button
+{
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input
+{
+    background-color: #E5E7EB;
+}
+
+.left
+{
+    position: relative;
+}
+footer
+{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: smaller;
+}
+.footer-cont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
